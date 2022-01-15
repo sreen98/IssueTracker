@@ -1,0 +1,112 @@
+{
+    "Issues": [
+      {
+        "issuedesc": "On Clicking delete, the application crashes.",
+        "severity": "Major",
+        "status": "Closed",
+        "type": "Angular",
+        "createdDate": "2021-01-13",
+        "resolvedDate": "2021-01-15",
+        "views": 14,
+        "id": 1
+      },
+      {
+        "issuedesc": "The heading Add is wrongly displayed as Edit.",
+        "severity": "Critical",
+        "status": "Closed",
+        "type": "React",
+        "createdDate": "2021-11-15",
+        "resolvedDate": "2020-11-21",
+        "id": 2,
+        "views": 13
+      },
+      {
+        "issuedesc": "The payment functionality is missing.",
+        "severity": "Minor",
+        "status": "Open",
+        "type": "Angular",
+        "createdDate": "2020-09-17",
+        "resolvedDate": "",
+        "views": 14,
+        "id": 3
+      },
+      {
+        "type": "Angular",
+        "issuedesc": "On adding to the cart the item doesnot get added.",
+        "severity": "Minor",
+        "status": "Closed",
+        "id": 4,
+        "createdDate": "2021-01-25",
+        "resolvedDate": "2021-02-01",
+        "views": 22
+      },
+      {
+        "issuedesc": "On updating the data does not update",
+        "severity": "Major",
+        "status": "Closed",
+        "type": "React",
+        "createdDate": "2020-12-05",
+        "resolvedDate": "2020-12-10",
+        "views": null,
+        "id": 5
+      },
+      {
+        "issuedesc": "On multiple delete server crashes",
+        "severity": "Critical",
+        "status": "Open",
+        "type": "JSON Server",
+        "createdDate": "2021-02-15",
+        "resolvedDate": "2021-02-18",
+        "views": 35,
+        "id": 6
+      },
+      {
+        "issuedesc": "h uhijjyfuuk",
+        "severity": "Major",
+        "status": "Open",
+        "type": "ih",
+        "createdDate": "2022-01-20",
+        "resolvedDate": "",
+        "views": 0,
+        "id": 7
+      }
+    ],
+    "Users": [
+      {
+        "id": 1,
+        "email": "test@mail.com",
+        "password": "password",
+        "firstName": "Test",
+        "lastName": "User",
+        "loc": "TestLocation",
+        "mobileNumber": "123456789"
+      },
+      {
+        "email": "sreenath.premnath@gmail.com",
+        "password": "1234",
+        "firstName": "Sreenath",
+        "lastName": "Premnath",
+        "loc": "Kerala",
+        "mobileNumber": "8281640883",
+        "id": 2
+      },
+      {
+        "email": "sreenath.premnath1@gmail.com",
+        "password": "12345",
+        "firstName": "Sree",
+        "lastName": "Prem",
+        "loc": "Kerala",
+        "mobileNumber": "9446276946",
+        "id": 3
+      },
+      {
+        "email": "sreenath@wipro.com",
+        "password": "pass123",
+        "firstName": "Sreenath",
+        "lastName": "P",
+        "loc": "Kerala",
+        "mobileNumber": "123456789",
+        "id": 4
+      }
+    ]
+  }
