@@ -1,8 +1,7 @@
-
-export default {
-    issues: [],
-    users:[],
-    login:false,
-    profile:[]
-  };
-  
+let initialState= {
+  issues: [],
+  users: [],
+  login: false,
+  profile: [],
+};
+export default initialState;
