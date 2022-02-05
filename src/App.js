@@ -9,10 +9,10 @@ import IssueDetail from './components/IssueDetailPage';
 import EditIssuePage from './components/EditIssuePage';
 // import PieChart from './components/PieChart';
 import { Navbar, Nav, Button } from 'react-bootstrap';
-import RegisterUser from './components/RegisterUser';
-import SignInPage from './components/SignInPage';
+import RegisterUser from './components/RegisterUser/RegisterUser'
+import SignInPage from './components/SignIn/SignInPage';
 // import MyProfilePage from './components/MyProfilePage';
-import About from './components/About';
+import About from './components/About/About';
 import * as loginActions from './actions/loginActions';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';

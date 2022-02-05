@@ -13,7 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.mainheading{
+  text-align: left;
+  color: rgb(6, 50, 56);
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 
  a.active{
