@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as issueActions from '../actions/issueActions';
+import * as issueActions from '../../actions/issueActions';
 import EditIssueForm from './EditForm';
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -50,8 +50,6 @@ class EditIssuePage extends React.Component {
                 </Row>
 
             </Container>
-
-
         );
     }
 

@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Card, Row, Col, ListGroup, ListGroupItem, Button, Container } from 'react-bootstrap';
-import * as userActions from '../actions/userActions';
+import * as userActions from '../../actions/userActions';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import CallIcon from '@material-ui/icons/Call';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -11,12 +11,6 @@ import EmailIcon from '@material-ui/icons/Email';
 
 
 class MyProfilePage extends React.Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-
     getuser = () => {
 
         return (this.props.currentUser);

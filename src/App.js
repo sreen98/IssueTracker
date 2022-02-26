@@ -3,10 +3,10 @@ import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, NavLink, Route, Switch, withRouter, } from 'react-router-dom';
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
-import AllIssuesPage from './components/AllIssuesPage';
-import AddIssuePage from './components/AddIssuePage';
-import IssueDetail from './components/IssueDetailPage';
-import EditIssuePage from './components/EditIssuePage';
+import AllIssuesPage from './components/AllIssuesPage/AllIssuesPage';
+import AddIssuePage from './components/AddIssue/AddIssuePage';
+import IssueDetail from './components/Issue/IssueDetailPage';
+import EditIssuePage from './components/EditIssue/EditIssuePage';
 // import PieChart from './components/PieChart';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import RegisterUser from './components/RegisterUser/RegisterUser'
@@ -20,8 +20,8 @@ import HomeIcon from '@material-ui/icons/Home';
 import AssessmentIcon from '@material-ui/icons/Assessment';
 import ListIcon from '@material-ui/icons/List';
 import InfoIcon from '@material-ui/icons/Info';
-const PieChart = lazy(() => import('./components/PieChart'));
-const MyProfile = lazy(() => import('./components/MyProfilePage'));
+const PieChart = lazy(() => import('./components/Issue/PieChart'));
+const MyProfile = lazy(() => import('./components/MyProfilePage/MyProfilePage'));
 
 
 class App extends React.Component {

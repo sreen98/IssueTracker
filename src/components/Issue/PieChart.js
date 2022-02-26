@@ -2,7 +2,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as issueActions from '../actions/issueActions';
+import * as issueActions from '../../actions/issueActions';
 import { withRouter } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Doughnut } from 'react-chartjs-2';

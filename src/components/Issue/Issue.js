@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Card, ListGroup, ListGroupItem, Button } from "react-bootstrap";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as issueActions from "../actions/issueActions";
+import * as issueActions from "../../actions/issueActions";
 import { Checkbox } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
 import DeleteOutlinedIcon from "@material-ui/icons/DeleteOutlined";

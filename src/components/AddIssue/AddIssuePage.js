@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as issueActions from "../actions/issueActions";
+import * as issueActions from "../../actions/issueActions";
 import AddIssueForm from "./AddIssueForm";
 import { Container, Row, Col } from "react-bootstrap";
 

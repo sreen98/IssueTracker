@@ -1,17 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import IssueList from './IssueList';
+import IssueList from '../Issue/IssueList';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as issueActions from '../actions/issueActions';
+import * as issueActions from '../../actions/issueActions';
 import { Container, Row, Col } from 'react-bootstrap';
 
 
 class AllIssuesPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Container>

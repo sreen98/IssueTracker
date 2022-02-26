@@ -8,7 +8,7 @@ import AddIcon from '@material-ui/icons/Add';
 import SearchIcon from '@material-ui/icons/Search';
 import EditIcon from '@material-ui/icons/Edit';
 import { bindActionCreators } from 'redux';
-import * as issueActions from '../actions/issueActions';
+import * as issueActions from '../../actions/issueActions';
 
 class IssueList extends React.Component {
     constructor(props) {

@@ -3,7 +3,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Card, Row, Col, ListGroup, ListGroupItem, Button, Container } from 'react-bootstrap';
-import * as userActions from '../actions/userActions';
+import * as userActions from '../../actions/userActions';
 
 
 class IssueDetail extends React.Component {
